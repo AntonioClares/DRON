@@ -1,0 +1,49 @@
+Specification:
+ 
+Item name: F4 flight controller integrate OSD
+Size: 27 * 27mm
+Mounting hole: 20 * 20mm
+Weight: 3.3g
+Processor: STM32F411C
+Sensor: MPU-6000 (connected by SPI)
+Firmware Target: betaflight
+Built-in BEC: 5V / 3A
+Power supply: 2-4S lipo battery
+Support the WS2812 LED_Strip function (turn off the Transponder before use) BF3.17 using the PPM receiver Do not turn on the LED_Strip function will cause the receiver no signal (known BUG will be resolved in the next version of the program)
+Support BLheli suite ESC programming
+Built-in voltage detection, alarm
+Advantage:
+Equipped with MPU6000 F4 flight control acceleration faster; integrated 5V / 3A BEC, integrated OSD. (This version is 6DOF, no barometer and electronic compass)
+1. Designed specifically for small traversing drone, it is especially suitable for small and functional advantages in the 130mm rack.
+2. This board provides all the functions, weighs only 8.5g, the size of only 27 * 27MM, fixed hole for the 20MM (M2.5 hole);
+3. For four-axis models tailored, built-in LC filter, support BF firmware (factory default program OMNIBUSF4SD 3.1.7);
+4. Using STM32F411C single-chip, MPU6000 sensor SPI interface connection, faster computing speed;
+5. Support 2-4S power input;
+6. Built-in 5V 3A output BEC;
+7. Support SBUS / PPM / DSMX and other mainstream mainstream receiver;
+8. Buzzer / programming LED / voltage monitoring / BLHELI ESC programming (BLheli_s passthrough ready);
+Especificaciones:
+
+Nombre del artículo: F4 controlador de vuelo integrado OSD
+Tamaño: 27*27mm
+Orificio de montaje: 20*20mm
+Peso: 3,3g
+Procesador: STM32F411C
+Sensor: MPU-6000 (conectado por SPI)
+Firmware objetivo: betaflight
+BEC integrado: 5V / 3A
+Fuente de alimentación: Batería lipo 2-4S
+Soporta la función WS2812 LED_Strip (apaga el transpondedor antes de usarlo) BF3.17 usando el receptor PPM no encienda la función LED_Strip hará que el receptor no emita señal (el insecto conocido se resolverá en la siguiente versión del programa)
+Compatible con la programación ESC de BLheli suite
+Detección de voltaje integrada, alarma
+Ventajas:
+Equipado con aceleración de control de vuelo MPU6000 F4 más rápida; Integrado 5V / 3A BEC, OSD integrado. (Esta versión es 6DOF, sin barómetro y brújula electrónica)
+1. Diseñado específicamente para pequeños drones de arrastre, es especialmente adecuado para ventajas pequeñas y funcionales en el estante de 130mm.
+2. Esta tabla proporciona todas las funciones, pesa sólo 8,5g, el tamaño de sólo 27*27MM, agujero fijo para el 20MM (M2.5 agujero);
+3. Para modelos de cuatro ejes a medida, filtro integrado LC, admite firmware BF (programa por defecto de fábrica OMNIBUSF4SD 3.1.7);
+4. Uso de un solo chip STM32F411C, conexión de interfaz SPI del sensor MPU6000, velocidad de computación más rápida;
+5. Admite entrada de alimentación 2-4S;
+6. Salida BEC integrada de 5V 3A;
+7. Admite SBUS / PPM / DSMX y otros receptores convencionales;
+8. Zumbador/programación LED/monitoreo de voltaje/programación ESC BLHELI (listo para paso BLheli_s);
+Alibaba Translation
